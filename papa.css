@@ -1,0 +1,39 @@
+body{
+    background-image:url("images/bg.jpg");
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header h1{
+    color:#f00d0d;
+    font-family:cursive;
+    margin-left: 30px;
+
+}
+.menu a{
+    color: #ff001a;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.header{
+    /*background-color:#ffef0f;*/
+    display:flex;
+    justify-content: space-between;
+    background: #020024;
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(121,116,9,1) 0%, rgba(211,206,21,1) 50%, rgba(255,235,0,1) 100%);
+
+
+}
+.grid img{
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+
+.text p{
+    text-align: center;
+    color: #00ffff;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
